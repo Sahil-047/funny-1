@@ -1,0 +1,70 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(42, 204, 241);
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.container{
+    justify-content: center;
+    display: flex;
+}
+.content{
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#gif-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.buttoncontainer{
+display: flex;
+justify-content: center;
+padding: 35px;
+gap: 55px;
+}
+#yes-btn, #no-btn{
+   
+    cursor: pointer;
+    outline: none;
+    border: none;
+    height: 60px;
+    width: 120px;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    transition: 0.3s all;
+    font-weight: 600;
+    background-color: #a2d2ff;
+    color: black;
+}
+#yes-btn:hover, #no-btn:hover {
+    background-color: rgb(246, 1, 1);
+    transition: 0.3s all;
+    color: aliceblue;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .container {
+      transform: scale(0.7);
+    }
+    #no-btn {
+        right: 110px;
+        top: 543px;
+      }
+    #yes-btn {
+        left: 110px;
+        top: 543px;
+      }
+    
+      #gif-image {
+        margin-left: auto;
+      }
+}

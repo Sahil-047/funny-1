@@ -1,0 +1,36 @@
+body {
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(243, 175, 204);
+}
+
+.story {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+}
+
+.firstline {
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.secondline {
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.thirdline {
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gif {
+    display: flex;
+    justify-content: center;
+}
